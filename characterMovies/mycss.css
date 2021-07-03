@@ -1,0 +1,58 @@
+.html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+}
+.titles ,h2,h6{
+    margin: 0px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.titles .row-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.modal-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-header .modal-content-Top .col3{
+    text-align: center;
+}
+.modal-body{
+    text-align: center;
+    background-color: rgba(36, 99, 194, 0.801);
+    color:white;
+}
+
+@media (min-width:640px){   
+    .container{
+        width:600px;
+    }
+    .titles .row-card{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width:960px){
+    .container{
+        width:920px;    
+    }
+}
+
+@media (min-width:1280px){
+    .container{
+        width:1240px;
+    }
+}
